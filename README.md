@@ -55,11 +55,8 @@ Para saber mais ainda sobre as características dessas três tecnologias a [Rafa
 
 # 2. Funções
 - Criamos uma função em JavaScript que recebe 2 parâmetros para gerar um número aleatório e entendemos como usar a estrutura de uma função para encapsular um trecho de código reutilizável;
-
 - Utilizamos a palavra-chave "return" dentro da função para retornar o valor do número aleatório gerado e criamos outra função chamada ```exibirMensagemInicialNaTela``` que não possui retorno nem parâmetros;
-
 - Compreendemos a diferença entre funções com retorno e funções sem retorno e aprendemos como chamar e invocar a função para exibir uma mensagem inicial na tela;
-
 - Vimos como os parâmetros e retornos são importantes para a comunicação entre funções e o restante do programa.
 
 ## Código
@@ -98,9 +95,7 @@ Seu uso é essencial para criar aplicações dinâmicas, interativas e eficiente
 
 # 3. Reiniciando o jogo
 - Aprendemos como criar um programa para verificar se o “chute” inserido é igual ao número secreto definido. Utilizamos estruturas condicionais para tomar decisões com base no resultado dessa comparação;
-
 - Criamos uma variável para armazenar a quantidade de tentativas realizadas pelo usuário;
-
 - Vimos a importância de consultar a documentação da linguagem e das bibliotecas utilizadas no desenvolvimento do programa. A documentação é uma fonte valiosa de informações que nos auxilia na compreensão de conceitos e no uso correto das funcionalidades disponíveis.
 
 ## Código
@@ -246,7 +241,6 @@ Uma array no JavaScript é uma estrutura de dados que permite armazenar e organi
 
 ### Criando uma array
 Você pode criar uma array em JavaScript declarando uma variável e atribuindo-lhe valores entre colchetes ```[]```.
-
 ```js
 let frutas = ["Maçã", "Uva", "Laranja"];
 ```
@@ -263,7 +257,6 @@ console.log(frutas[2]); // Saída: "Laranja"
 
 ### Adicionando novos elementos
 Para adicionar um elemento ao final da array, você pode usar o método push.
-
 ```js
 frutas.push("Morango");
 console.log(frutas); // Saída: ["Maçã", "Uva", "Laranja", "Morango"]
@@ -271,7 +264,6 @@ console.log(frutas); // Saída: ["Maçã", "Uva", "Laranja", "Morango"]
 
 ### Removendo o último elemento
 Para remover o último elemento, você pode usar o método pop.
-
 ```js
 frutas.pop();
 console.log(frutas); // Saída: ["Maçã", "Uva", "Laranja"]
@@ -279,7 +271,6 @@ console.log(frutas); // Saída: ["Maçã", "Uva", "Laranja"]
 
 ### Quais linguagens de programação usam arrays?
 Aqui está uma lista de algumas linguagens de programação que utilizam arrays:
-
 - JavaScript
 - Python
 - Java
@@ -292,9 +283,7 @@ Aqui está uma lista de algumas linguagens de programação que utilizam arrays:
 - Go
 
 Outras linguagens também suportam o uso de arrays ou estruturas de dados semelhantes para armazenar coleções de valores. Aprender sobre arrays é importante porque elas desempenham um papel fundamental no desenvolvimento de aplicações de software.
-
 As listas ou Arrays fornecem uma maneira eficiente de armazenar e acessar conjuntos de dados, permitindo que os programadores organizem informações de forma lógica e manipulem esses dados de maneira eficaz.
-
 Tendo o conhecimento de como trabalhar com arrays, é possível criar algoritmos mais poderosos, resolver problemas de programação de forma mais eficiente e criar aplicações mais dinâmicas e interativas.
 
 ---
