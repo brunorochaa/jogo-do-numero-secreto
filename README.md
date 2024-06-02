@@ -37,7 +37,7 @@ O **JavaScript**, por sua vez, é a única linguagem de programação das três.
 
 O papel de cada tecnologia dessas na construção de aplicações web, de forma bem resumida, é: o HTML estrutura o conteúdo, o CSS define o estilo e o layout, e o JavaScript adiciona funcionalidades dinâmicas.
 
-![Imagem explicando as tecnologias citadas no texto](image.png)
+<table><thead><tr><th>Tecnologia</th><th>Função</th><th>Exemplos de Uso</th></tr></thead><tbody><tr><td>HTML</td><td>Linguagem de marcação para estruturar conteúdo.</td><td><h1>Título</h1> <p>Parágrafo</p></td></tr><tr><td>CSS</td><td>Linguagem de estilos para apresentação e estilização.</td><td>p { color: blue; } div { background: #f2f2f2; }</td></tr><tr><td>JavaScript (JS)</td><td>Linguagem de programação para interatividade.</td><td>function iniciarJogo() { ... }</td></tr></tbody></table>
 
 A aprendizagem dessas tecnologias é crucial para qualquer pessoa interessada em desenvolvimento web, uma vez que elas formam a base do ambiente digital. Compreender o HTML é necessário para estruturar e organizar o conteúdo de uma página de maneira semântica, o que é vital para a acessibilidade, indexação por motores de busca e uma experiência consistente entre diferentes dispositivos.
 
@@ -87,7 +87,7 @@ function gerarNumeroAleatorio() {
 ## Para saber mais: funções com JavaScript
 As funções desempenham um papel central na programação e no desenvolvimento de software, permitindo encapsular blocos de código reutilizáveis e executáveis. Elas podem ser definidas para executar tarefas específicas, desde cálculos simples até manipulação complexa de dados. As funções em JavaScript podem ter ou não parâmetros, bem como retornar ou não valores.
 
-![Explicação de tipos de funções](image-3.png)
+<table><thead><tr><th>Tipo de Função</th><th>Exemplo de Código</th><th>Uso</th></tr></thead><tbody><tr><td>Sem retorno e sem parâmetro</td><td>function saudacao() { ... }</td><td>Execução de bloco de código simples.</td></tr><tr><td>Sem retorno e com parâmetro</td><td>function cumprimentar(nome) { ... }</td><td>Execução de bloco de código com argumentos.</td></tr><tr><td>Com retorno e sem parâmetro</td><td>function gerarNumeroAleatorio() { ... }</td><td>Cálculo e retorno de um valor específico.</td></tr><tr><td>Com retorno e com parâmetro</td><td>function somar(a, b) { ... }</td><td>Cálculo e retorno baseado em argumentos.</td></tr><tr><td>Função anônima</td><td>let saudacao = function() { ... };</td><td>Definição de função sem nome localmente.</td></tr><tr><td>Arrow function</td><td>let quadrado = x =&gt; x * x;</td><td>Definição concisa de funções curtas.</td></tr></tbody></table>
 
 Seu uso é essencial para criar aplicações dinâmicas, interativas e eficientes em JavaScript. Porém, **você não precisa criar todos os tipos de funções neste momento**. Acompanhe as aulas e saiba que essas variações existem e conforme a necessidade, vamos mergulhando cada vez mais profundamente em lógica e JavaScript.
 
@@ -248,7 +248,7 @@ let frutas = ["Maçã", "Uva", "Laranja"];
 ###  Acessando os valores
 Os elementos de uma array são acessados usando índices numéricos, que começam em 0.
 
-![Mostra uma lista](image-4.png)
+<table><thead><tr><th>Índice</th><th>Elemento</th></tr></thead><tbody><tr><td>0</td><td>"Maçã"</td></tr><tr><td>1</td><td>"Uva"</td></tr><tr><td>2</td><td>"Laranja"</td></tr></tbody></table>
 
 ```js
 console.log(frutas[0]); // Saída: "Maçã"
